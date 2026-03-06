@@ -317,18 +317,28 @@ showing the resonance peak.
 #  Example Interaction
 
 ```
-User:
+**User**:
 Hi, we have a spring with m=10, k=5, b=0.4.
 Find the resonance frequency experimentally.
 
-Agent:
-Running experimental search...
+** Assistant** : Running experimental search...
 
-The resonance frequency was found experimentally to be approximately 0.115 Hz.
-This corresponds to the peak of the steady-state amplitude curve A(f).
-```
+**Assistant** : Based on the given data, I can calculate the resonance frequency for the spring.
 
-A plot of the resonance curve is also generated.
+The resonance frequency is found experimentally to be approximately 0.193 Hz.
+
+To achieve this result, the experimental process involved a scan and refinement method. Here's a brief overview:
+
+1. Initially, a scan was performed to measure the amplitude (A) of the spring's oscillations at various frequencies (f). This scan likely involved varying the driving frequency of the spring while measuring the amplitude response.
+2. The scan results showed that the amplitude of the spring's oscillations was maximum at a specific frequency, which is the resonance frequency. In this case, the maximum amplitude was observed at 0.193 Hz.
+3. To refine the result, additional measurements were taken at frequencies slightly above and below the initial maximum amplitude point. This refinement step helped to narrow down the resonance frequency to a more precise value.
+
+By combining the scan and refinement steps, the experimentalists were able to determine the resonance frequency of the spring
+
+
+A **plot** of the resonance curve is also generated.
+<img width="1091" height="583" alt="image" src="https://github.com/user-attachments/assets/cc2420c1-9611-46c7-baaf-c56d461ae9fb" />
+
 
 ---
 
@@ -353,6 +363,8 @@ Theoretical resonance:
 ```
 ≈ 0.112 Hz
 ```
+
+
 
 The small difference arises because the agent performs **discrete experimental sampling**.  The relative error is |0.112 - 0.115| / 0.112 = 2.6%, what is fair for an experimental model.
 
