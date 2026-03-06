@@ -337,8 +337,9 @@ By combining the scan and refinement steps, the experimentalists were able to de
 
 
 A **plot** of the resonance curve is also generated.
-<img width="1091" height="583" alt="image" src="https://github.com/user-attachments/assets/cc2420c1-9611-46c7-baaf-c56d461ae9fb" />
-![](https://github.com/user-attachments/assets/cc2420c1-9611-46c7-baaf-c56d461ae9fb)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/cc2420c1-9611-46c7-baaf-c56d461ae9fb" width="800">
+</p>
 
 
 ---
